@@ -12,17 +12,34 @@
         "percentage": 30
       }
     ]
-  }, 
+  },
   {
     "name": "Mr. Nobody",
     "values": [
       {
-        "genre": "mindfuck",
-        "percentage": 80
-      },
-      {
         "genre": "romance",
         "percentage": 20
+      },
+      {
+        "genre": "mindfuck",
+        "percentage": 80
+      }
+    ]
+  },
+  {
+    "name": "Atonement",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 40
+      },
+      {
+        "genre": "life",
+        "percentage": 20
+      },
+      {
+        "genre": "depressive",
+        "percentage": 40
       }
     ]
   }

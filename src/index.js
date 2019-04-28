@@ -19,9 +19,7 @@ function svgComponent(name){
 }
 
 var svg = d3.select("svg"),
-    width = +svg.attr("width"),
-    height = +svg.attr("height"),
-    radius = Math.min(width, height) / 2
+    radius = Math.min(200, 200) / 2
 
 var pie = d3.pie()
     .sort(null)
@@ -37,13 +35,21 @@ var label = d3.arc()
 
 d3.json("../data/data.json", function(error, movies) {
   if (error) throw error;
-  console.log(movies)
+
   movies.forEach((movie, index) => {
-    var  g = svg.append("g").attr("transform", "translate(" + index +30 + "," + index + 30+ ")");
+    var counter = 200 + index * 230;
+
+    var  g = svg.append("g")
+                .attr("transform", "translate(" + 300 + "," + counter + ")");
+
+    g.append("text")
+     .attr("transform", "translate(" + '-' + 280 + "," + index +  ")")
+     .text(movie.name);
 
     var arc = g.selectAll(".arc")
       .data(pie(movie.values))
-      .enter().append("g")
+      .enter()
+      .append("g")
         .attr("class", "arc");
 
     arc.append("path")
