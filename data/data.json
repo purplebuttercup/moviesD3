@@ -1,0 +1,29 @@
+
+[
+  {
+    "name": "Constantine",
+    "values": [
+      {
+        "genre": "mystic",
+        "percentage": 70
+      },
+      {
+        "genre": "badass",
+        "percentage": 30
+      }
+    ]
+  }, 
+  {
+    "name": "Mr. Nobody",
+    "values": [
+      {
+        "genre": "mindfuck",
+        "percentage": 80
+      },
+      {
+        "genre": "romance",
+        "percentage": 20
+      }
+    ]
+  }
+]

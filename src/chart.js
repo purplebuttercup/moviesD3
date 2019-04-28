@@ -1,6 +1,3 @@
-import { colors } from './colors.js';
-
-console.log(colors)
 
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
@@ -42,3 +39,5 @@ d3.csv("data.csv", function(d) {
       .attr("dy", "0.35em")
       .text(function(d) { return d.data.genre; });
 });
+
+export { svg }
