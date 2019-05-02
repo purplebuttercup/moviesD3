@@ -30,12 +30,14 @@ var path = d3.arc()
     .innerRadius(0);
 
 var label = d3.arc()
-    .outerRadius(radius - 40)
+    .outerRadius(radius - 40) 
     .innerRadius(radius - 40);
 
 d3.json("../data/data.json", function(error, movies) {
   if (error) throw error;
 
+  svg.style("width", 210*movies.length + 'px')
+     .style("height", 1000 + 'px');
   movies.forEach((movie, index) => {
     var counter = 200 + index * 230;
 
