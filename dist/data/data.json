@@ -44,7 +44,7 @@
   },
   {
     "name": "Fight Club",
-    "values": [ 
+    "values": [
       {
         "genre": "mindfuck",
         "percentage": 50
@@ -52,6 +52,96 @@
       {
         "genre": "badass",
         "percentage": 50
+      }
+    ]
+  },
+  {
+    "name": "Before Sunrise/Sunset/Midnight",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 80
+      },
+      {
+        "genre": "life",
+        "percentage": 20
+      }
+    ]
+  },
+  {
+    "name": "Daydream Nation",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 10
+      },
+      {
+        "genre": "life",
+        "percentage": 80
+      },
+      {
+        "genre": "badass",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "name": "Garden State",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 20
+      },
+      {
+        "genre": "life",
+        "percentage": 75
+      },
+      {
+        "genre": "depressive",
+        "percentage": 5
+      }
+    ]
+  },
+  {
+    "name": "Eternal Sunshine of the Spotless Mind",
+    "values": [
+      {
+        "genre": "SF",
+        "percentage": 30
+      },
+      {
+        "genre": "romance",
+        "percentage": 30
+      },
+      {
+        "genre": "life",
+        "percentage": 20
+      },
+      {
+        "genre": "depressive",
+        "percentage": 15
+      }
+    ]
+  },
+  {
+    "name": "The Notebook",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "name": "Inception",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 30
+      },
+      {
+        "genre": "mindfuck",
+        "percentage": 70
       }
     ]
   }

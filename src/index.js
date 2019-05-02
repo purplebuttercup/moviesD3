@@ -38,12 +38,16 @@ d3.json("../data/data.json", function(error, movies) {
   if (error) throw error;
 
   svg.style("width", 210*movies.length + 'px')
-     .style("height", 1000 + 'px');
-  movies.forEach((movie, index) => {
-    var counter = 200 + index * 230;
+     .style("height", 210*5 + 'px');
 
+  var counterX = 300;
+  movies.forEach((movie, index) => { 
+    var counterY = 200 + (index%4) * 230 ;
+    if (index !=0 && index % 4 == 0)
+      counterX =  counterX + 500
+console.log(counterX)
     var  g = svg.append("g")
-                .attr("transform", "translate(" + 300 + "," + counter + ")");
+                .attr("transform", "translate(" + counterX + "," + counterY + ")");
 
     g.append("text")
      .attr("transform", "translate(" + '-' + 280 + "," + index +  ")")

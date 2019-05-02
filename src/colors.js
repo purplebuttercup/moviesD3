@@ -4,7 +4,8 @@ var colors = {
   'life'        : '#739876',
   'mindfuck'    : '#AFC3B8',
   'mystic'      : '#7B5487',
-  'romance'     : '#F1B5BB'
+  'romance'     : '#F1B5BB',
+  'SF'          : '#E88941'
 }
 
 export { colors };
