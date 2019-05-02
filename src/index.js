@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import { colors } from './colors.js';
+import Data from '../data/data.json';
 
 
 function component(name) {
@@ -30,7 +31,7 @@ var path = d3.arc()
     .innerRadius(0);
 
 var label = d3.arc()
-    .outerRadius(radius - 40) 
+    .outerRadius(radius - 40)
     .innerRadius(radius - 40);
 
 d3.json("../data/data.json", function(error, movies) {
