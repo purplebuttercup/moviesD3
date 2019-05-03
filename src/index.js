@@ -2,25 +2,39 @@ import _ from 'lodash';
 import { colors } from './colors.js';
 import Data from '../data/data.json';
 
+function wrap(text) {
+    text.each(function() {
+        var text = d3.select(this);
+        var words = text.text().split(" ").reverse();
+        console.log(words)
+        var lineHeight = 20;
+        var width = parseFloat(text.attr('width'));
+        var y = parseFloat(text.attr('y'));
+        var x = text.attr('x');
+        var anchor = text.attr('text-anchor');
 
-function component(name) {
-  const element = document.createElement('div');
-  element.innerHTML = _.join(['', name], ' ');
-
-  return element;
-}
-
-function svgComponent(name){
-  const svg = document.createElement('svg');
-  svg.setAttribute('id', name);
-  svg.setAttribute('width', 260);
-  svg.setAttribute('height', 200);
-
-  return svg;
+        var tspan = text.text(null).append('tspan').attr('x', x).attr('y', y).attr('text-anchor', anchor);
+        var lineNumber = 0;
+        var line = [];
+        var word = words.pop();
+        console.log(word)
+        while (word) {
+            line.push(word);
+            tspan.text(line.join(' '));
+            if (tspan.node().getComputedTextLength() > width) {
+                lineNumber += 1;
+                line.pop();
+                tspan.text(line.join(' '));
+                line = [word];
+                tspan = text.append('tspan').attr('x', x).attr('y', y + lineNumber * lineHeight).attr('anchor', anchor).text(word);
+            }
+            word = words.pop();
+        }
+    });
 }
 
 var svg = d3.select("svg"),
-    radius = Math.min(200, 200) / 2
+    radius = Math.min(150, 150) / 2
 
 var pie = d3.pie()
     .sort(null)
@@ -37,21 +51,30 @@ var label = d3.arc()
 d3.json("../data/data.json", function(error, movies) {
   if (error) throw error;
 
-  svg.style("width", 210*movies.length + 'px')
-     .style("height", 210*5 + 'px');
+  svg.style("width", 90*movies.length + 'px')
+     .style("height", 210*7 + 'px');
 
   var counterX = 300;
-  movies.forEach((movie, index) => { 
-    var counterY = 200 + (index%4) * 230 ;
-    if (index !=0 && index % 4 == 0)
+  movies.forEach((movie, index) => {
+    var counterY = 200 + (index%6) * 230 ;
+    if (index !=0 && index % 6 == 0)
       counterX =  counterX + 500
-console.log(counterX)
     var  g = svg.append("g")
                 .attr("transform", "translate(" + counterX + "," + counterY + ")");
 
     g.append("text")
-     .attr("transform", "translate(" + '-' + 280 + "," + index +  ")")
+     .attr("class", "wrapme")
+     .attr("x", "-200")
+     .attr("y","0")
+     .attr("width","150")
+     .attr("text-anchor","middle" )
      .text(movie.name);
+
+        // g.append("text")
+        //  .attr("transform", "translate(" + '-' + 280 + "," + 0 +  ")")
+        //  .attr("width", "500")
+        //  .attr("height", "500")
+        //  .text(movie.name);
 
     var arc = g.selectAll(".arc")
       .data(pie(movie.values))
@@ -63,10 +86,9 @@ console.log(counterX)
         .attr("d", path)
         .attr("fill", function(d) { return colors[d.data.genre]; });
 
-    arc.append("text")
-        .attr("transform", function(d) { return "translate(" + label.centroid(d) + ")"; })
-        .attr("dy", "0.35em")
-        .text(function(d) { return d.data.genre; });
 
-    })
+    });
+
+            //wrap text if too long
+            d3.selectAll('.wrapme').call(wrap);
 });

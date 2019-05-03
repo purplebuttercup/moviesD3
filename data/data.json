@@ -1,6 +1,7 @@
 [
   {
     "name": "Constantine",
+    "link": "https://www.imdb.com/title/tt0360486/",
     "values": [
       {
         "genre": "mystic",
@@ -8,12 +9,17 @@
       },
       {
         "genre": "badass",
-        "percentage": 30
+        "percentage": 20
+      },
+      {
+        "genre": "keanu",
+        "percentage": 10
       }
     ]
   },
   {
     "name": "Mr. Nobody",
+    "link": "https://www.imdb.com/title/tt0485947/",
     "values": [
       {
         "genre": "romance",
@@ -27,6 +33,7 @@
   },
   {
     "name": "Atonement",
+    "link": "https://www.imdb.com/title/tt0783233/",
     "values": [
       {
         "genre": "romance",
@@ -43,7 +50,34 @@
     ]
   },
   {
+    "name": "Eternal Sunshine of the Spotless Mind",
+    "link": "https://www.imdb.com/title/tt0338013/",
+    "values": [
+      {
+        "genre": "SF",
+        "percentage": 30
+      },
+      {
+        "genre": "romance",
+        "percentage": 30
+      },
+      {
+        "genre": "life",
+        "percentage": 20
+      },
+      {
+        "genre": "funny",
+        "percentage": 15
+      },
+      {
+        "genre": "depressive",
+        "percentage": 5
+      }
+    ]
+  },
+  {
     "name": "Fight Club",
+    "link": "https://www.imdb.com/title/tt0137523/",
     "values": [
       {
         "genre": "mindfuck",
@@ -56,37 +90,167 @@
     ]
   },
   {
-    "name": "Before Sunrise/Sunset/Midnight",
+    "name": "Girl, Interrupted",
+    "link": "https://www.imdb.com/title/tt0172493/",
     "values": [
       {
-        "genre": "romance",
+        "genre": "mindfuck",
+        "percentage": 30
+      },
+      {
+        "genre": "depressive",
+        "percentage": 40
+      },
+      {
+        "genre": "badass",
+        "percentage": 30
+      }
+    ]
+  },
+  {
+    "name": "Memento",
+    "link": "https://www.imdb.com/title/tt0209144/",
+    "values": [
+      {
+        "genre": "mindfuck",
+        "percentage": 70
+      },
+      {
+        "genre": "badass",
+        "percentage": 30
+      }
+    ]
+  },
+  {
+    "name": "The Jacket",
+    "link": "https://www.imdb.com/title/tt0366627/",
+    "values": [
+      {
+        "genre": "mindfuck",
         "percentage": 80
       },
       {
-        "genre": "life",
+        "genre": "depressive",
         "percentage": 20
       }
     ]
   },
   {
-    "name": "Daydream Nation",
+    "name": "The Fountain",
+    "link": "https://www.imdb.com/title/tt0414993/",
+    "values": [
+      {
+        "genre": "SF",
+        "percentage": 10
+      },
+      {
+        "genre": "romance",
+        "percentage": 40
+      },
+      {
+        "genre": "mystic",
+        "percentage": 20
+      },
+      {
+        "genre": "life",
+        "percentage": 10
+      },
+      {
+        "genre": "depressive",
+        "percentage": 20
+      }
+    ]
+  },
+  {
+    "name": "The Royal Tenenbaums",
+    "link": "https://www.imdb.com/title/tt0265666/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 20
+      },
+      {
+        "genre": "life",
+        "percentage": 60
+      },
+      {
+        "genre": "funny",
+        "percentage": 20
+      }
+    ]
+  },
+  {
+    "name": "Shutter Island",
+    "link": "https://www.imdb.com/title/tt1130884/",
     "values": [
       {
         "genre": "romance",
         "percentage": 10
       },
       {
-        "genre": "life",
+        "genre": "mindfuck",
         "percentage": 80
       },
       {
+        "genre": "life",
+        "percentage": 5
+      },
+      {
+        "genre": "depressive",
+        "percentage": 5
+      }
+    ]
+  },
+  {
+    "name": "10 Things I Hate About You",
+    "link": "https://www.imdb.com/title/tt0147800/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 30
+      },
+      {
+        "genre": "life",
+        "percentage": 50
+      },
+      {
+        "genre": "funny",
+        "percentage": 20
+      }
+    ]
+  },
+  {
+    "name": "Beetlejuice",
+    "link": "https://www.imdb.com/title/tt0094721/",
+    "values": [
+      {
+        "genre": "mystic",
+        "percentage": 50
+      },
+
+      {
+        "genre": "halloween",
+        "percentage": 50
+      }
+    ]
+  },
+  {
+    "name": "Underworld",
+    "link": "https://www.imdb.com/title/tt0320691/",
+    "values": [
+      {
+        "genre": "mystic",
+        "percentage": 30
+      },
+      {
         "genre": "badass",
-        "percentage": 10
+        "percentage": 70
       }
     ]
   },
   {
     "name": "Garden State",
+    "link": "https://www.imdb.com/title/tt0333766/",
     "values": [
       {
         "genre": "romance",
@@ -103,11 +267,696 @@
     ]
   },
   {
-    "name": "Eternal Sunshine of the Spotless Mind",
+    "name": "Inception",
+    "link": "https://www.imdb.com/title/tt1375666/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 30
+      },
+      {
+        "genre": "mindfuck",
+        "percentage": 70
+      }
+    ]
+  },
+  {
+    "name": "The Nightmare Before Christmas",
+    "link": "https://www.imdb.com/title/tt0107688/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 5
+      },
+      {
+        "genre": "mystic",
+        "percentage": 5
+      },
+      {
+        "genre": "halloween",
+        "percentage": 80
+      },
+      {
+        "genre": "funny",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "name": "Children of Dune",
+    "link": "https://www.imdb.com/title/tt0107688/",
     "values": [
       {
         "genre": "SF",
+        "percentage": 80
+      },
+      {
+        "genre": "romance",
+        "percentage": 10
+      },
+      {
+        "genre": "badass",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "name": "The Life Aquatic with Steve Zissou",
+    "link": "https://www.imdb.com/title/tt0362270/",
+    "values": [
+      {
+        "genre": "life",
+        "percentage": 80
+      },
+      {
+        "genre": "funny",
+        "percentage": 20
+      }
+    ]
+  },
+  {
+    "name": "Donnie Darko",
+    "link": "https://www.imdb.com/title/tt0246578/",
+    "values": [
+      {
+        "genre": "SF",
+        "percentage": 50
+      },
+      {
+        "genre": "mindfuck",
+        "percentage": 50
+      }
+    ]
+  },
+  {
+    "name": "The Pianist",
+    "link": "https://www.imdb.com/title/tt0253474/",
+    "values": [
+      {
+        "genre": "life",
+        "percentage": 10
+      },
+      {
+        "genre": "depressive",
+        "percentage": 90
+      }
+    ]
+  },
+  {
+    "name": "Stay",
+    "link": "https://www.imdb.com/title/tt0371257/",
+    "values": [
+      {
+        "genre": "mindfuck",
+        "percentage": 80
+      },
+      {
+        "genre": "depressive",
+        "percentage": 20
+      }
+    ]
+  },
+  {
+    "name": "Sweet November",
+    "link": "https://www.imdb.com/title/tt0230838/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 40
+      },
+      {
+        "genre": "keanu",
         "percentage": 30
+      },
+      {
+        "genre": "depressive",
+        "percentage": 30
+      }
+    ]
+  },
+  {
+    "name": "The Great Gatsby",
+    "link": "https://www.imdb.com/title/tt1343092/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 50
+      },
+      {
+        "genre": "life",
+        "percentage": 50
+      }
+    ]
+  },
+  {
+    "name": "The Butterfly Effect",
+    "link": "https://www.imdb.com/title/tt0289879/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 10
+      },
+      {
+        "genre": "mindfuck",
+        "percentage": 60
+      },
+      {
+        "genre": "life",
+        "percentage": 30
+      }
+    ]
+  },
+  {
+    "name": "The Godfather I",
+    "link": "https://www.imdb.com/title/tt0068646/",
+    "values": [
+      {
+        "genre": "life",
+        "percentage": 30
+      },
+      {
+        "genre": "badass",
+        "percentage": 70
+      }
+    ]
+  },
+  {
+    "name": "The Devil's Advocate",
+    "link": "https://www.imdb.com/title/tt0118971/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 30
+      },
+      {
+        "genre": "mystic",
+        "percentage": 30
+      },
+      {
+        "genre": "keanu",
+        "percentage": 40
+      }
+    ]
+  },
+  {
+    "name": "Closer",
+    "link": "https://www.imdb.com/title/tt0376541/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 40
+      },
+      {
+        "genre": "life",
+        "percentage": 50
+      },
+      {
+        "genre": "badass",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "name": "Corpse Bride",
+    "link": "https://www.imdb.com/title/tt0121164/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 34
+      },
+      {
+        "genre": "mystic",
+        "percentage": 33
+      },
+      {
+        "genre": "halloween",
+        "percentage": 33
+      }
+    ]
+  },
+  {
+    "name": "The Notebook",
+    "link": "https://www.imdb.com/title/tt0332280/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "name": "Edward Scissorhands",
+    "link": "https://www.imdb.com/title/tt0099487/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 40
+      },
+      {
+        "genre": "mystic",
+        "percentage": 40
+      },
+      {
+        "genre": "halloween",
+        "percentage": 20
+      }
+    ]
+  },
+  {
+    "name": "Sleepy Hollow",
+    "link": "https://www.imdb.com/title/tt0162661/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 5
+      },
+      {
+        "genre": "halloween",
+        "percentage": 90
+      },
+      {
+        "genre": "funny",
+        "percentage": 5
+      }
+    ]
+  },
+  {
+    "name": "The Curious Case of Benjamin Button",
+    "link": "https://www.imdb.com/title/tt0421715/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 30
+      },
+      {
+        "genre": "mindfuck",
+        "percentage": 60
+      },
+      {
+        "genre": "life",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "name": "Cloud Atlas",
+    "link": "https://www.imdb.com/title/tt1371111/",
+    "values": [
+      {
+        "genre": "SF",
+        "percentage": 20
+      },
+      {
+        "genre": "romance",
+        "percentage": 20
+      },
+      {
+        "genre": "mystic",
+        "percentage": 15
+      },
+      {
+        "genre": "mindfuck",
+        "percentage": 5
+      },
+      {
+        "genre": "life",
+        "percentage": 20
+      },
+      {
+        "genre": "depressive",
+        "percentage": 20
+      }
+    ]
+  },
+  {
+    "name": "Silver Linings Playbook",
+    "link": "https://www.imdb.com/title/tt1045658/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 30
+      },
+      {
+        "genre": "life",
+        "percentage": 40
+      },
+      {
+        "genre": "funny",
+        "percentage": 30
+      }
+    ]
+  },
+  {
+    "name": "The Lake House",
+    "link": "https://www.imdb.com/title/tt0410297/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 50
+      },
+      {
+        "genre": "keanu",
+        "percentage": 50
+      }
+    ]
+  },
+  {
+    "name": "High Fidelity",
+    "link": "https://www.imdb.com/title/tt0107688/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 35
+      },
+      {
+        "genre": "life",
+        "percentage": 45
+      },
+      {
+        "genre": "funny",
+        "percentage": 15
+      },
+      {
+        "genre": "badass",
+        "percentage": 5
+      }
+    ]
+  },
+  {
+    "name": "Blade Runner",
+    "link": "https://www.imdb.com/title/tt0083658/",
+    "values": [
+      {
+        "genre": "SF",
+        "percentage": 50
+      },
+      {
+        "genre": "badass",
+        "percentage": 50
+      }
+    ]
+  },
+  {
+    "name": "Sucker Punch",
+    "link": "https://www.imdb.com/title/tt0978764/",
+    "values": [
+      {
+        "genre": "SF",
+        "percentage": 40
+      },
+      {
+        "genre": "mystic",
+        "percentage": 10
+      },
+      {
+        "genre": "badass",
+        "percentage": 50
+      }
+    ]
+  },
+  {
+    "name": "The Edge of Tomorrow",
+    "link": "https://www.imdb.com/title/tt1631867/",
+    "values": [
+      {
+        "genre": "SF",
+        "percentage": 50
+      },
+      {
+        "genre": "funny",
+        "percentage": 10
+      },
+      {
+        "genre": "badass",
+        "percentage": 40
+      }
+    ]
+  },
+  {
+    "name": "The Dreamers",
+    "link": "https://www.imdb.com/title/tt0309987/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 50
+      },
+      {
+        "genre": "mindfuck",
+        "percentage": 10
+      },
+      {
+        "genre": "life",
+        "percentage": 40
+      }
+    ]
+  },
+  {
+    "name": "The Crow",
+    "link": "https://www.imdb.com/title/tt1563738/",
+    "values": [
+      {
+        "genre": "mystic",
+        "percentage": 45
+      },
+      {
+        "genre": "life",
+        "percentage": 10
+      },
+      {
+        "genre": "badass",
+        "percentage": 45
+      }
+    ]
+  },
+  {
+    "name": "Before Sunrise/Sunset/Midnight",
+    "link": "https://www.imdb.com/title/tt0112471/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 80
+      },
+      {
+        "genre": "life",
+        "percentage": 10
+      },
+      {
+        "genre": "funny",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "name": "Pulp Fiction",
+    "link": "https://www.imdb.com/title/tt0110912/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 10
+      },
+      {
+        "genre": "life",
+        "percentage": 40
+      },
+      {
+        "genre": "funny",
+        "percentage": 10
+      },
+      {
+        "genre": "badass",
+        "percentage": 40
+      }
+    ]
+  },
+  {
+    "name": "What Dreams May Come",
+    "link": "https://www.imdb.com/title/tt0120889/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 15
+      },
+      {
+        "genre": "mystic",
+        "percentage": 50
+      },
+      {
+        "genre": "life",
+        "percentage": 35
+      }
+    ]
+  },
+  {
+    "name": "Inglorious Basterds",
+    "link": "https://www.imdb.com/title/tt0361748/",
+    "values": [
+      {
+        "genre": "life",
+        "percentage": 25
+      },
+      {
+        "genre": "funny",
+        "percentage": 10
+      },
+      {
+        "genre": "badass",
+        "percentage": 65
+      }
+    ]
+  },
+  {
+    "name": "Interstellar",
+    "link": "https://www.imdb.com/title/tt0816692/",
+    "values": [
+      {
+        "genre": "SF",
+        "percentage": 50
+      },
+      {
+        "genre": "life",
+        "percentage": 25
+      },
+      {
+        "genre": "depressive",
+        "percentage": 25
+      }
+    ]
+  },
+  {
+    "name": "Dorian Gray",
+    "link": "https://www.imdb.com/title/tt1235124/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 20
+      },
+      {
+        "genre": "mystic",
+        "percentage": 50
+      },
+      {
+        "genre": "badass",
+        "percentage": 30
+      }
+    ]
+  },
+  {
+    "name": "Darjeeling Limited",
+    "link": "https://www.imdb.com/title/tt0838221/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 10
+      },
+      {
+        "genre": "life",
+        "percentage": 80
+      },
+      {
+        "genre": "funny",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "name": "Source Code",
+    "link": "https://www.imdb.com/title/tt0945513/",
+    "values": [
+      {
+        "genre": "SF",
+        "percentage": 60
+      },
+      {
+        "genre": "mindfuck",
+        "percentage": 40
+      }
+    ]
+  },
+  {
+    "name": "Definitely, Maybe",
+    "link": "https://www.imdb.com/title/tt0832266/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 50
+      },
+      {
+        "genre": "life",
+        "percentage": 20
+      },
+      {
+        "genre": "funny",
+        "percentage": 30
+      }
+    ]
+  },
+  {
+    "name": "Midnight in Paris",
+    "link": "https://www.imdb.com/title/tt1605783/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 20
+      },
+      {
+        "genre": "funny",
+        "percentage": 20
+      },
+      {
+        "genre": "life",
+        "percentage": 60
+      }
+    ]
+  },
+  {
+    "name": "47 Ronin",
+    "link": "https://www.imdb.com/title/tt1335975/",
+    "values": [
+      {
+        "genre": "mystic",
+        "percentage": 40
+      },
+      {
+        "genre": "keanu",
+        "percentage": 10
+      },
+      {
+        "genre": "badass",
+        "percentage": 50
+      }
+    ]
+  },
+  {
+    "name": "Léon: The Professional",
+    "link": "https://www.imdb.com/title/tt0110413/",
+    "values": [
+      {
+        "genre": "life",
+        "percentage": 50
+      },
+      {
+        "genre": "badass",
+        "percentage": 50
+      }
+    ]
+  },
+  {
+    "name": "Sin City",
+    "link": "https://www.imdb.com/title/tt0401792/",
+    "values": [
+      {
+        "genre": "badass",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "name": "Comet",
+    "link": "https://www.imdb.com/title/tt2965412/",
+    "values": [
+      {
+        "genre": "SF",
+        "percentage": 20
       },
       {
         "genre": "romance",
@@ -119,29 +968,293 @@
       },
       {
         "genre": "depressive",
-        "percentage": 15
+        "percentage": 30
       }
     ]
   },
   {
-    "name": "The Notebook",
+    "name": "500 Days of Summer",
+    "link": "https://www.imdb.com/title/tt1022603/",
     "values": [
       {
         "genre": "romance",
+        "percentage": 50
+      },
+      {
+        "genre": "life",
+        "percentage": 50
+      }
+    ]
+  },
+  {
+    "name": "Love and Other Drugs",
+    "link": "https://www.imdb.com/title/tt0758752/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 50
+      },
+      {
+        "genre": "funny",
+        "percentage": 40
+      },
+      {
+        "genre": "depressive",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "name": "Atomic Blonde",
+    "link": "https://www.imdb.com/title/tt2406566/",
+    "values": [
+      {
+        "genre": "badass",
         "percentage": 100
       }
     ]
   },
   {
-    "name": "Inception",
+    "name": "Lost in Translation",
+    "link": "https://www.imdb.com/title/tt0335266/",
     "values": [
       {
         "genre": "romance",
+        "percentage": 10
+      },
+      {
+        "genre": "life",
+        "percentage": 80
+      }
+    ]
+  },
+  {
+    "name": "Kill Bill vol. 1/ vol. 2",
+    "link": "https://www.imdb.com/title/tt0266697/",
+    "values": [
+      {
+        "genre": "SF",
+        "percentage": 20
+      },
+      {
+        "genre": "life",
+        "percentage": 20
+      },
+      {
+        "genre": "funny",
+        "percentage": 10
+      },
+      {
+        "genre": "badass",
+        "percentage": 50
+      }
+    ]
+  },
+  {
+    "name": "Meet Joe Black",
+    "link": "https://www.imdb.com/title/tt0119643/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 70
+      },
+      {
+        "genre": "life",
+        "percentage": 30
+      }
+    ]
+  },
+  {
+    "name": "Wanted",
+    "link": "https://www.imdb.com/title/tt0493464/",
+    "values": [
+      {
+        "genre": "badass",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "name": "I Origins",
+    "link": "https://www.imdb.com/title/tt2884206/",
+    "values": [
+      {
+        "genre": "SF",
+        "percentage": 50
+      },
+      {
+        "genre": "romance",
+        "percentage": 50
+      }
+    ]
+  },
+  {
+    "name": "Serendipity",
+    "link": "https://www.imdb.com/title/tt0240890/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 80
+      },
+      {
+        "genre": "life",
+        "percentage": 20
+      }
+    ]
+  },
+  {
+    "name": "Good Will Hunting",
+    "link": "https://www.imdb.com/title/tt0119217/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 20
+      },
+      {
+        "genre": "life",
+        "percentage": 80
+      }
+    ]
+  },
+  {
+    "name": "The English Patient",
+    "link": "https://www.imdb.com/title/tt0116209/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 90
+      },
+      {
+        "genre": "life",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "name": "Trainspotting",
+    "link": "https://www.imdb.com/title/tt0117951/",
+    "values": [
+      {
+        "genre": "life",
+        "percentage": 80
+      },
+      {
+        "genre": "funny",
+        "percentage": 20
+      }
+    ]
+  },
+  {
+    "name": "One Day",
+    "link": "https://www.imdb.com/title/tt1563738/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 50
+      },
+      {
+        "genre": "life",
+        "percentage": 50
+      }
+    ]
+  },
+  {
+    "name": "Gothika",
+    "link": "https://www.imdb.com/title/tt0348836/",
+    "values": [
+      {
+        "genre": "mystic",
+        "percentage": 50
+      },
+      {
+        "genre": "life",
+        "percentage": 50
+      }
+    ]
+  },
+  {
+    "name": "Nick and Norah's Infinite Playlist",
+    "link": "https://www.imdb.com/title/tt0981227/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 50
+      },
+      {
+        "genre": "life",
         "percentage": 30
       },
       {
+        "genre": "funny",
+        "percentage": 20
+      }
+    ]
+  },
+  {
+    "name": "Daydream Nation",
+    "link": "https://www.imdb.com/title/tt1581835/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 10
+      },
+      {
+        "genre": "life",
+        "percentage": 80
+      },
+      {
+        "genre": "badass",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "name": "Filth",
+    "link": "https://www.imdb.com/title/tt1450321/",
+    "values": [
+      {
+        "genre": "life",
+        "percentage": 20
+      },
+      {
+        "genre": "funny",
+        "percentage": 50
+      },
+      {
+        "genre": "badass",
+        "percentage": 30
+      }
+    ]
+  },
+  {
+    "name": "Vanilla Sky",
+    "link": "https://www.imdb.com/title/tt0259711/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 60
+      },
+      {
         "genre": "mindfuck",
-        "percentage": 70
+        "percentage": 10
+      },
+      {
+        "genre": "mystic",
+        "percentage": 30
+      }
+    ]
+  },
+  {
+    "name": "The Machinist",
+    "link": "https://www.imdb.com/title/tt0361862/",
+    "values": [
+      {
+        "genre": "mindfuck",
+        "percentage": 80
+      },
+      {
+        "genre": "life",
+        "percentage": 30
       }
     ]
   }

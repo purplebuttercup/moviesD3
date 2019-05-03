@@ -5,7 +5,9 @@ var colors = {
   'mindfuck'    : '#AFC3B8',
   'mystic'      : '#7B5487',
   'romance'     : '#F1B5BB',
-  'SF'          : '#E88941'
+  'halloween'   : '#E88941',
+  'SF'          : '#646C63',
+  'funny'       : '#BC3B52'
 }
 
 export { colors };
