@@ -987,6 +987,24 @@
     ]
   },
   {
+    "name": "Candy",
+    "link": "https://www.imdb.com/title/tt0424880/",
+    "values": [
+      {
+        "genre": "romance",
+        "percentage": 10
+      },
+      {
+        "genre": "life",
+        "percentage": 10
+      },
+      {
+        "genre": "depressive",
+        "percentage": 80
+      }
+    ]
+  },
+  {
     "name": "Love and Other Drugs",
     "link": "https://www.imdb.com/title/tt0758752/",
     "values": [
