@@ -6,7 +6,6 @@ function wrap(text) {
     text.each(function() {
         var text = d3.select(this);
         var words = text.text().split(" ").reverse();
-        console.log(words)
         var lineHeight = 20;
         var width = parseFloat(text.attr('width'));
         var y = parseFloat(text.attr('y'));
@@ -17,7 +16,6 @@ function wrap(text) {
         var lineNumber = 0;
         var line = [];
         var word = words.pop();
-        console.log(word)
         while (word) {
             line.push(word);
             tspan.text(line.join(' '));
@@ -52,17 +50,18 @@ d3.json("../data/data.json", function(error, movies) {
   if (error) throw error;
 
   svg.style("width", 90*movies.length + 'px')
-     .style("height", 210*7 + 'px');
+     .style("height", 250*7 + 'px');
 
   var counterX = 300;
   movies.forEach((movie, index) => {
-    var counterY = 200 + (index%6) * 230 ;
+    var counterY = 300 + (index%6) * 230 ;
     if (index !=0 && index % 6 == 0)
       counterX =  counterX + 500
     var  g = svg.append("g")
                 .attr("transform", "translate(" + counterX + "," + counterY + ")");
 
     g.append("text")
+     .append("a").attr("xlink:href", function(){ return movie.link })
      .attr("class", "wrapme")
      .attr("x", "-200")
      .attr("y","0")
@@ -88,7 +87,33 @@ d3.json("../data/data.json", function(error, movies) {
 
 
     });
+    //wrap text if too long
+    d3.selectAll('.wrapme').call(wrap);
 
-            //wrap text if too long
-            d3.selectAll('.wrapme').call(wrap);
+    //add title to svg
+    svg.append("text")
+        .attr("x", 150)
+        .attr("y", 50)
+        .attr("text-anchor", "middle")
+        .style("font-size", "50px")
+        .style("text-decoration", "underline")
+        .style("color", "black")
+        .text("THE List");
+
+    //add color legend
+    Object.keys(colors).forEach((key, index) => {
+      console.log(colors[key]);
+
+      var rectangle = svg.append("rect")
+                              .attr("x", 100 + index*200)
+                              .attr("y", 130)
+                              .attr("width", 30)
+                              .attr("height", 30)
+                              .attr("fill", colors[key]);
+
+      var rectangleText = svg.append("text")
+                              .attr("x", 145 + index*200)
+                              .attr("y", 149)
+                              .text("- " + key);
+    });
 });
